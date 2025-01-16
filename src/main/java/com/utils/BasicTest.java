@@ -42,8 +42,13 @@ public abstract class BasicTest {
         // options.addArguments("--no-sanbox");
 
         WebDriverManager.chromedriver().setup();
+<<<<<<< HEAD
         // driver = new ChromeDriver(options);
         driver = new ChromeDriver();
+=======
+     //   driver = new ChromeDriver(options);
+      driver = new ChromeDriver();
+>>>>>>> 561118ad423354572f2e682397ea843255b27365
         // driver = new ChromeDriver();
         // Maximize the browser
         driver.manage().window().maximize();
