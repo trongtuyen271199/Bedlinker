@@ -28,6 +28,7 @@ public class HomePage extends BasePage {
     }
 // icon seach 
 
-
+// message thông báo login thành công 
+public By byMessageLoginSuccess = By.xpath("//p[text()='Đăng nhập thành công.']");
 }
 
